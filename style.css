@@ -1,0 +1,24 @@
+.circle02 {
+
+    width:250px;
+    height: 250px;
+    background-color:rgb(246, 144, 144);
+    outline-width: thick;
+    position:fixed;
+    top: 100px;
+    left: 50px;
+    opacity: 0.8;
+    border-radius: 30%;
+
+
+}
+.circle02 {
+animation: spin 7s infinite linear;
+animation-delay: 2s;
+
+}
+@keyframes spin {
+
+  from {transform: rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
